@@ -3,7 +3,9 @@
     <h1>Home</h1>
     <h2>Welcome back, {{ name }}</h2>
     <router-link :to="{ name: 'about' }">About</router-link>
-    <button class="logout" @click="Logout">Logout</button>
+    <div>
+      <button class="logout" @click="Logout">Logout</button>
+    </div>
   </div>
 </template>
 
